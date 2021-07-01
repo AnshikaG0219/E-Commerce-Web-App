@@ -1,7 +1,7 @@
 .review {
   background-image: linear-gradient(
-      rgba(52, 73, 94, 0.7),
-      rgba(52, 73, 94, 0.7)
+      rgba(52, 73, 94, 0.5),
+      rgba(52, 73, 94, 0.562)
     ),
     url(../Images/bg2.jpg);
   background-size: cover;
