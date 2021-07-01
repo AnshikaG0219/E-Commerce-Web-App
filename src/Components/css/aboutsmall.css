@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+.aboutSmall{
+    background-image: linear-gradient(
+      rgba(52, 73, 94, 0.7),
+      rgba(52, 73, 94, 0.7)
+    ),
+    url(../Images/bg8.jpg);
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+h2,p{
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+}
+.about_title{
+  padding-top: 2.5% !important;
+}

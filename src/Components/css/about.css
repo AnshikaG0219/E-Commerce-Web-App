@@ -1,0 +1,10 @@
+.About_us{
+    background-image: linear-gradient(
+      rgba(52, 73, 94, 0.7),
+      rgba(52, 73, 94, 0.7)
+    ),
+    url(../Images/bg4.jpg);
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}

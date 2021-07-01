@@ -1,0 +1,14 @@
+.content_form{
+    background-image: linear-gradient(
+      rgba(52, 73, 94, 0.7),
+      rgba(52, 73, 94, 0.7)
+    ),
+    url(../Images/bg5.jpg);
+  background-size: cover;
+  height: 105vh;
+  background-attachment: fixed;
+}
+.form{
+    padding-left: 30% !important;
+    width: 100vw !important;
+}

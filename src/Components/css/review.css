@@ -1,0 +1,18 @@
+.review {
+  background-image: linear-gradient(
+      rgba(52, 73, 94, 0.7),
+      rgba(52, 73, 94, 0.7)
+    ),
+    url(../Images/bg2.jpg);
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
+.head {
+  margin-top: 20vh !important;
+}
+.quote {
+  max-width: 10%;
+  height: auto;
+  filter: invert(1);
+}
