@@ -7,7 +7,7 @@ export default function AboutUs() {
     <>
     <div className="About_us text-white">
       <div className="container w-75">
-        <h2 className="display-4 mt-4 pt-5" id="about_us">
+        <h2 className="display-4 pt-5" id="about_us">
           About Us
         </h2>
         <p className="d-flex justify-content-center my-3 mb-4">
