@@ -15,7 +15,7 @@ export default function Footer() {
     e.preventDefault();
     let v = valid();
     if (v) {
-      fetch("http://127.0.0.1:5000/newsletter", {
+      fetch("/newsletter", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -40,12 +40,12 @@ export default function Footer() {
             </small>
           </div>
           <div className="col-6 col-md">
-            <h5 classNameName="text-center" id="contact_us">
+            <h5 className="" id="contact_us">
               Contact Us
             </h5>
             <ul className="list-unstyled text-small">
               <li>
-                <a className="text-muted" href="#">
+                <a className="text-muted" href="mailto:query@backyardsale.com">
                   query@backyardsale.com
                 </a>
               </li>
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
           <div className="col-6 col-md">
             <Form className="mx-3">
-              <h5 classNameName="text-center">Join our newsletter</h5>
+              <h5 className="">Join our newsletter</h5>
               <Form.Group
                 className="mb-3"
                 controlId="exampleForm.ControlInput1"

@@ -1,0 +1,98 @@
+export const productsdata = [
+  {
+    id: "1",
+    name: "Book 1",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?study,books",
+  },
+  {
+    id: "2",
+    name: "Book 2",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?books,books",
+  },
+  {
+    id: "3",
+    name: "Book 3",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?pen,books",
+  },
+  {
+    id: "4",
+    name: "Book 4",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?desk,books",
+  },
+  {
+    id: "5",
+    name: "Book 5",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?study,books",
+  },
+  {
+    id: "6",
+    name: "Book 6",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?books,books",
+  },
+  {
+    id: "7",
+    name: "Book 7",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?pen,books",
+  },
+  {
+    id: "8",
+    name: "Book 8",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?desk,books",
+  },
+  {
+    id: "9",
+    name: "Book 9",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?study,books",
+  },
+  {
+    id: "10",
+    name: "Book 10",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?books,books",
+  },
+  {
+    id: "11",
+    name: "Book 11",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?pen,books",
+  },
+  {
+    id: "12",
+    name: "Book 12",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?desk,books",
+  },
+  {
+    id: "13",
+    name: "Book 13",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?study,books",
+  },
+  {
+    id: "14",
+    name: "Book 14",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?books,books",
+  },
+  {
+    id: "15",
+    name: "Book 15",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?pen,books",
+  },
+  {
+    id: "16",
+    name: "Book 16",
+    price: 0,
+    image: "https://source.unsplash.com/400x300/?desk,books",
+  },
+];

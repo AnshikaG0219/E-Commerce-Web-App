@@ -39,7 +39,7 @@ export default function AboutUs() {
           Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
-      <Footer />
+      <Footer/>
       </div>
     </>
   );

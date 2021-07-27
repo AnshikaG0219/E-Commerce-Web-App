@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "./Footer";
-import { Card, Button, CardDeck } from "react-bootstrap";
+import { Card,CardDeck,Button,Container } from "react-bootstrap";
 
 export default function Shop() {
   return (
     <>
-      <div className="container mt-5">
-      <CardDeck>
+    <Container className="my-4">
+    <CardDeck className="my-3">
         <Card>
           <Card.Img
             variant="top"
@@ -15,7 +15,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 1</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -28,7 +28,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 2</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -41,7 +41,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 3</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -54,13 +54,13 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 4</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
         </Card>
       </CardDeck>
-      <CardDeck>
+    <CardDeck className="my-3">
         <Card>
           <Card.Img
             variant="top"
@@ -69,7 +69,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 5</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -82,7 +82,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 6</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -95,7 +95,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 7</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -108,13 +108,13 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 8</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
         </Card>
       </CardDeck>
-      <CardDeck>
+    <CardDeck className="my-3">
         <Card>
           <Card.Img
             variant="top"
@@ -123,7 +123,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 9</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -136,7 +136,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 10</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -149,7 +149,7 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 11</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
@@ -162,14 +162,14 @@ export default function Shop() {
           <Card.Body>
             <Card.Title className="text-center">Book 12</Card.Title>
             <Card.Text className="text-center">₹0</Card.Text>
-            <Button variant="success" size="lg" block>
+            <Button variant="info" size="lg" block>
               Add to Cart
             </Button>
           </Card.Body>
         </Card>
       </CardDeck>
-      </div>
-      <Footer/>
+    </Container> 
+    <Footer/>
     </>
   );
 }

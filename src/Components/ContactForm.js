@@ -99,7 +99,7 @@ export default function ContactForm() {
           Submit
         </Button>
       </Form>
-      <Footer />
+      <Footer/>
       </div>
     </>
   );

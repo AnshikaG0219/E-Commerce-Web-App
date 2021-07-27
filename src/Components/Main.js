@@ -18,14 +18,28 @@ export default function Main() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://source.unsplash.com/1400x400/?study,books"
+            src="https://source.unsplash.com/1400x400/?pen,books"
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://source.unsplash.com/1400x400/?coffee,books"
+            src="https://source.unsplash.com/1400x400/?cafe,books"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://source.unsplash.com/1400x400/?tea,books"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://source.unsplash.com/1400x400/?notebook,books"
             alt="Third slide"
           />
         </Carousel.Item>
